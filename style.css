@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:steelblue;
+}
+.container {
+  background-color: steelblue;
+  padding: 2rem;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  width: 300px;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.input-group {
+  background-color: white;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+/* .input-group img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+} */
+input[type="date"] {
+  border: none;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+.result-group {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #333;
+}
+
+.person-image{
+  width: 1em;
+  height: 2em;
+  margin-right: 2rem;
+}
+.result-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.result-title img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+.result-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+.result-item {
+  text-align: center;
+}
+.result-value {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.result-label {
+  font-size: 0.8rem;
+  color: #666;
+}

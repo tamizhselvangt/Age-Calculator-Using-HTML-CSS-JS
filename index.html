@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calcy</h1>
+        <div class="input-group">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="date" id="birthdate" required>
+        </div>
+        <div class="result-group">
+            <div class="result-title">
+              <svg class="person-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
+                <span>Your Age</span>
+            </div>
+            <div class="result-numbers">
+                <div class="result-item">
+                    <div id="years" class="result-value">0</div>
+                    <div class="result-label">Years</div>
+                </div>
+                <div class="result-item">
+                    <div id="months" class="result-value">0</div>
+                    <div class="result-label">Months</div>
+                </div>
+                <div class="result-item">
+                    <div id="days" class="result-value">0</div>
+                    <div class="result-label">Days</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
